@@ -280,20 +280,19 @@
     }
 
     .main-box-matter {
-        background: yellow;
-        width: 1024px;
+        width: 1200px;
         margin: auto;
         margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .main-box-matter-item-1 {
         width: 70%;
-        background: red;
     }
 
     .main-box-matter-item-2 {
         width: 28%;
-        background: green;
     }
 
     .main-box {
@@ -304,3 +303,28 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .main-box-first {
+        background: white;
+        height: auto;
+        width: 1200px;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .titel-box>ul>li>a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .titel-box>ul {
+        list-style: none;
+    }
+
+    .titel-box{
+        overflow: auto;
+        height: 350px;
+    }
+    
